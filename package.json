@@ -1,0 +1,44 @@
+{
+  "name": "notes-saas-app",
+  "version": "1.0.0",
+  "description": "A comprehensive multi-tenant SaaS application for notes management",
+  "main": "notes-backend/index.js",
+  "scripts": {
+    "start": "cd notes-backend && npm start",
+    "dev": "concurrently \"cd notes-backend && npm run dev\" \"cd notes-frontend && npm start\"",
+    "build": "cd notes-frontend && npm run build",
+    "seed": "cd notes-backend && npm run seed",
+    "install:backend": "cd notes-backend && npm install",
+    "install:frontend": "cd notes-frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev123-sig/notes-saas-app.git"
+  },
+  "keywords": [
+    "saas",
+    "multi-tenant",
+    "notes",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "jwt",
+    "tailwindcss"
+  ],
+  "author": "Devanshu Pathak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev123-sig/notes-saas-app/issues"
+  },
+  "homepage": "https://github.com/dev123-sig/notes-saas-app#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
