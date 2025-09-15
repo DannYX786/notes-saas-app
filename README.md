@@ -118,7 +118,7 @@ npm install
 cp .env.example .env
 
 # Configure environment variables
-# MONGODB_URI=mongodb://localhost:27017/notes-saas
+# MONGODB_URI=mongodb://localhost/notes-saas
 # JWT_SECRET=your-secret-key
 # NODE_ENV=development
 
