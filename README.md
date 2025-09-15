@@ -362,7 +362,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Developer
 
 **Devanshu Pathak**
-- GitHub: [@dev123-sig](https://github.com/dev123-sig)
+- GitHub: [@DannYX786](https://github.com/DannYX786)
 - Project: Multi-Tenant Notes SaaS Application
 
 ## 🔮 Future Enhancements
